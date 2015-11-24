@@ -11,4 +11,7 @@ screenshots
 <img alt="six" src="https://raw.github.com/charsdavy/group-buying/master/screenshots/group-buying6.png" width="200">&nbsp;&nbsp;
 <img alt="seven" src="https://raw.github.com/charsdavy/group-buying/master/screenshots/group-buying7.png" width="200">&nbsp;&nbsp;
 
+#Blog
+My Blog [http://www.cnblogs.com/chars](http://www.cnblogs.com/chars) Welcome to visit!
+
 Copyright
