@@ -17,4 +17,4 @@ My Blog [http://www.cnblogs.com/chars](http://www.cnblogs.com/chars) Welcome to 
 #E-mail
 Author:chars_d@126.com
 
-Copyright
+Copyright © deng wei
