@@ -12,7 +12,7 @@ screenshots
 <img alt="seven" src="https://raw.github.com/charsdavy/group-buying/master/screenshots/group-buying7.png" width="200">&nbsp;&nbsp;
 
 #Blog
-My Blog [http://www.cnblogs.com/chars](http://www.cnblogs.com/chars) Welcome to visit!
+My Blog is [here](http://my.oschina.net/chars/blog) Welcome to visit!
 
 #E-mail
 Author:chars_d@126.com
