@@ -49,10 +49,10 @@ static inline NSString* cachePathForKey(NSString* directory, NSString* key) {
         
     }
     
-    NSDictionary *dataMap=(NSDictionary *)[self cachedObjectForKey:kCacheKeyForUnicode2Pinyin];
-    if (dataMap) {
-        self->_unicodeToHanyuPinyinTable=dataMap;
-    }else{
+//    NSDictionary *dataMap=(NSDictionary *)[self cachedObjectForKey:kCacheKeyForUnicode2Pinyin];
+//    if (dataMap) {
+//        self->_unicodeToHanyuPinyinTable=dataMap;
+//    }else{
         NSString *resourceName =[[NSBundle mainBundle] pathForResource:@"unicode_to_hanyu_pinyin" ofType:@"txt"];
         NSString *dictionaryText=[NSString stringWithContentsOfFile:resourceName encoding:NSUTF8StringEncoding error:nil];
         NSArray *lines = [dictionaryText componentsSeparatedByString:@"\r\n"];
@@ -65,7 +65,7 @@ static inline NSString* cachePathForKey(NSString* directory, NSString* key) {
          }
         self->_unicodeToHanyuPinyinTable=tempMap;
         [self cacheObjec:self->_unicodeToHanyuPinyinTable forKey:kCacheKeyForUnicode2Pinyin];
-    }
+//    }
 }
 
 - (id<NSCoding>)cachedObjectForKey:(NSString*)key
