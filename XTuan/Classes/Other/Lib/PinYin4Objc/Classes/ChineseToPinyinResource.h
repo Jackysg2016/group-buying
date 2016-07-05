@@ -7,13 +7,11 @@
 #ifndef _ChineseToPinyinResource_H_
 #define _ChineseToPinyinResource_H_
 
-#import <Foundation/Foundation.h>
-
 @class NSArray;
 @class NSMutableDictionary;
 
 @interface ChineseToPinyinResource : NSObject {
-    NSString *_directory;
+    NSString* _directory;
     NSDictionary *_unicodeToHanyuPinyinTable;
 }
 //@property(nonatomic, strong)NSDictionary *unicodeToHanyuPinyinTable;

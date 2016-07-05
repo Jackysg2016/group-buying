@@ -4,8 +4,6 @@
 //  Created by kimziv on 13-9-14.
 //
 
-#import <Foundation/Foundation.h>
-
 #include "ChineseToPinyinResource.h"
 #define LEFT_BRACKET @"("
 #define RIGHT_BRACKET @")"
